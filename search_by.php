@@ -11,8 +11,7 @@
       die('Failed to connect to MySQL: '.mysqli_connect_error());
     }
 
-    $sql = 'SELECT * 
-      FROM items';
+    $sql = 'SELECT * FROM items';
     //echo ''.$sql.'<br>';
     $query = mysqli_query($conn, $sql);
     /*$sql = 'SELECT * 
@@ -28,7 +27,7 @@ $query = mysqli_query($conn, $sql);*/
     $query = mysqli_query($conn, $all);
 
   }
-
+    $admin_name = "";
 
    ?>
 <html>
@@ -46,6 +45,8 @@ $query = mysqli_query($conn, $sql);*/
 </style>
 	</head>
 <body>
+  <?php include('include/nav.php'); ?>
+
 <ul class="nav nav-pills">
     <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
     <li><a data-toggle="pill" href="#byquantity">By Quantity</a></li>

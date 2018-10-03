@@ -23,6 +23,8 @@
 
 </head>
 <body>
+	<?php include('include/nav.php'); ?>
+
 	<div class="container container-fluid">
 		
 		

@@ -53,7 +53,8 @@
       }
 </style>
 </head>
-<body>
+<body> <?php include('include/nav.php'); ?>
+
 	 <div class="container"> <br><br><br>
         <div class="row">
            <div class="col-sm-offset-1 col-sm-10">

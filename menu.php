@@ -32,7 +32,7 @@ $get_string = "?admin_name=$admin_name";
 				<div class="row">
 					
 					<div class="col-sm-4">
-						<a href="show_all_products.php" class="btn btn-block box"><h2 class="page-heading">Show all Products</h2></a>
+						<a href="show_all_products.php<?=$get_string?>" class="btn btn-block box"><h2 class="page-heading">Show all Products</h2></a>
 					</div>
 
 					<div class="col-sm-4">

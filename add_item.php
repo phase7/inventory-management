@@ -121,7 +121,7 @@
      
 </style>
 </head>
-<body>
+<body> <?php include('include/nav.php'); ?>
     
      <div class="container"> <br><br><br>
         <div class="row">

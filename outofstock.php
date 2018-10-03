@@ -16,9 +16,7 @@
 		$sql= '\'UPDATE out_stock, inventory set out_stock.OOS_status=\'No\', out_stock.OS_status=\'Yes\' 
 		      WHERE inventory.Quantity > out_stock.Max_quant*0.80 AND inventory.entry_id = out_stock.entry_id';
         mysqli_query($conn, $sql);
-       $sql= 'UPDATE out_stock, inventory set out_stock.OOS_status='-', out_stock.OS_status='-' 
-		      WHERE inventory.Quantity < out_stock.Max_quant*0.80 AND inventory.Quantity > out_stock.Min_quant*1.20 
-			  AND inventory.entry_id = out_stock.entry_id';		
+       $sql= 'UPDATE out_stock, inventory set out_stock.OOS_status=\'-\', out_stock.OS_status=\'-\' WHERE inventory.Quantity < out_stock.Max_quant*0.80 AND inventory.Quantity > out_stock.Min_quant*1.20 AND inventory.entry_id = out_stock.entry_id';		
 			  mysqli_query($conn, $sql);
 		$sql = 'SELECT * 
 			FROM out_stock';
@@ -48,6 +46,7 @@ $query = mysqli_query($conn, $sql);*/
 	</style>
 </head>
 <body>
+	<?php include('include/nav.php'); ?>
 	<div class="container container-fluid">
 		
 		

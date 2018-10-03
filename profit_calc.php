@@ -41,6 +41,8 @@ $query = mysqli_query($conn, $sql);*/
 	</style>
 </head>
 <body>
+	<?php include('include/nav.php'); ?>
+
 	<div class="container">
 		
 		

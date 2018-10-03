@@ -21,6 +21,7 @@ $query = mysqli_query($conn, $sql);*/
 		if (!$query){
 			die('SQL error : '.mysqli_error($conn));
 		}
+		$admin_name = $_GET['admin_name'];
 	 ?>
 <html>
 <head>
@@ -43,6 +44,9 @@ $query = mysqli_query($conn, $sql);*/
 
 </head>
 <body>
+
+	<?php include('include/nav.php'); ?>
+
 	<div class="container container-fluid">
 		
 		
