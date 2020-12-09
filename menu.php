@@ -63,7 +63,7 @@ $get_string = "?admin_name=$admin_name";
 				<div class=row>
 
 					<div class="col-sm-4">
-						<a href="Order.php" class="btn box"><h2 class="page-heading">Orders Report</h2></a>
+						<a href="order.php" class="btn box"><h2 class="page-heading">Orders Report</h2></a>
 					</div>
 
 					<div class="col-sm-4">

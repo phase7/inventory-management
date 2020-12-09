@@ -12,7 +12,13 @@
 	 	if (mysqli_query($conn, $sql_edit)) {
 	 		header('Location: all_products.php?admin_name='.$admin_name);
 	 	} 
-	 	else die('SQL error in $sql_edit: '. mysqli_error($conn));
+	 	else 
+// 	 	die('SQL error in $sql_edit: '. mysqli_error($conn));
+            {
+                //echo("Did you try something nefarious right now?");
+                header('Location: redirect.php');
+                
+            }
 	 }
 	 	
   

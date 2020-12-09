@@ -17,7 +17,7 @@
 	      <li><a href="outofstock.php">Over Stock</a></li>
 	      <li><a href="profit_calc.php">Profit</a></li>
 	      <li><a href="customer.php">Customers</a></li>
-	      <li><a href="Order.php">Order Report</a></li>
+	      <li><a href="order.php">Order Report</a></li>
 	      <li><a href="search_by.php">Search</a></li>
 	      <li><a href="index.php">Log Out</a></li>
 	    </ul>
